@@ -1,9 +1,10 @@
 
  
 package javaapplication2;
-class Airplane implements Features {
-      String name = "Boeing";
-    int speed = 9100;
+public class Airplane extends Features{
+     public Airplane(){
+         super("f16",1100);
+     }
 
     @Override
     public void displayName() {
